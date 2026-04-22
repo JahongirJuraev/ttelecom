@@ -1,0 +1,32 @@
+# 🔐 Конфиги (важно!)
+config.php
+
+# 📁 Загрузки (если у тебя файлы юзеров)
+uploads/*
+!uploads/.htaccess
+
+# 🧠 Системные файлы Windows
+Thumbs.db
+Desktop.ini
+
+# 🗑 Логи
+*.log
+
+# ⚙️ XAMPP / temp
+/tmp/
+/cache/
+
+# 🧪 IDE (если используешь)
+.vscode/
+.idea/
+
+# 📦 Node (если добавишь React позже)
+node_modules/
+dist/
+build/
+
+# 🗃️ База данных дампы
+*.sql
+
+# 🔑 env файлы
+.env
